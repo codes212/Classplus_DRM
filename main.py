@@ -140,7 +140,7 @@ and unlock the full potential of your new bot! 🔓
 SUBSCRIPTION_FILE = "subscription_data.txt"
 
 # Admin ID
-YOUR_ADMIN_ID = 7003164707
+YOUR_ADMIN_ID = 6567162029
 
 # Function to read subscription data
 def read_subscription_data():
@@ -204,7 +204,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 7003164707
+YOUR_ADMIN_ID = 6567162029
 
 # Helper function to check admin privilege
 def is_admin(user_id):
